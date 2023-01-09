@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout.css">
+    <h1>Old York Hotel</h1>
+        
+    <nav class="navbar">
+    <a href="Hotel.html"> Main Page </a>
+    <a href="Login.html"> Login </a>
+    <a href="Rent.html"> Apartment Renting </a>
+    <a href="Clean.html"> Cleaning </a>
+    <a href="Invoice.html"> Invoice </a>
+    </nav>
+    
+</head>   
+<body>
+    <h1>Apartment renting</h1>
+    <div class="rent">
+        <form method="post" action="Rent.php">
+            <label for="RentNumber"><b>Rent Number</b></label>
+            <input id="RentNumber" type="number" placeholder="Rent Number" name="RentNumber" required><br>
+<label for="duration"><b>Duration</b></label>
+            <input id="Duration" type="number" placeholder="Duration" name="Duration" required><br>
+
+            <label for="FirstName"><b>Guest First Name</b></label>
+            <input id="FirstName" type="text" placeholder="First Name" name="First Namr" required><br>
+
+            <label for="LastaName"><b>Guest Last Name</b></label>
+            <input id="LastName" type="text" placeholder="Last Name" name="Last Name" required><br>
+
+            <label for="RoomNumber"><b>Room Number</b></label>
+            <input id="RoomNumber" type="number" placeholder="Room Number" name="RoomNumber" required><br>
+
+            <label for="Addres"><b>Address details</b></label>
+            <input id="Address" type="text" placeholder="Address Details" name="Address" required><br>
+
+            <label for="entry"><b>Date Guest Wishes to enter room</b></label>
+            <input id="entry" type="date" placeholder="Entry" name="entry" required><br>
+
+            <label for="exit"><b>Date Guest Wishes to exit room</b></label>
+            <input id="exit" type="date" placeholder="Exit" name="exit" required><br>
+
+            <input type="submit" value="enter"><br>
+
+        </form>
+    </div>
+</body>
+</html> 
